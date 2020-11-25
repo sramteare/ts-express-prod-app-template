@@ -1,0 +1,11 @@
+//this is used to override inclusion of test folders that are required by ide from default tsconfig.json
+{
+    "extends": "./tsconfig.json",
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "test"
+    ]
+}
